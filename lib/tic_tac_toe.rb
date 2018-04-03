@@ -2,7 +2,7 @@ class TicTacToe
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
   end
-end
+
   def current_player
     turn_count % 2 == 0 ? "X" : "O"
   end
@@ -29,7 +29,7 @@ end
     [0,4,8],
     [2,4,6]
   ]
-  
+  end
   def input_to_index(x)
   index = x.to_i-1
   end
