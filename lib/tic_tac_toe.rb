@@ -29,7 +29,7 @@ class TicTacToe
     [0,4,8],
     [2,4,6]
   ]
-end
+
   
   
   def input_to_index(x)
@@ -128,4 +128,4 @@ def play
   
 end
 
-
+end
